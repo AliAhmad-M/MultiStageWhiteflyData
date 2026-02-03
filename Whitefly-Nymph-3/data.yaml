@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['adult', 'nymph']
+
+roboflow:
+  workspace: research-vqdsa
+  project: whitefly-nymph-1icjx
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/research-vqdsa/whitefly-nymph-1icjx/dataset/3

@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['adult']
+
+roboflow:
+  workspace: research-vqdsa
+  project: whitefly-adults-yfb8g
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/research-vqdsa/whitefly-adults-yfb8g/dataset/3
